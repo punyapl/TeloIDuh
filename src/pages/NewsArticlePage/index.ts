@@ -1,0 +1,1 @@
+export { NewsArticlePageAsync as NewsArticlePage, } from './ui/NewsArticlePage.async'

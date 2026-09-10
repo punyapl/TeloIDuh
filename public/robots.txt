@@ -1,0 +1,50 @@
+# robots.txt — teloiduh.ru
+# Клиника превентивной медицины и биохакинга «Тело и дух»
+
+# ─── Все боты (общие правила) ─────────────────────────────────────────────────
+User-agent: *
+Allow: /
+
+# Закрываем служебные и технические маршруты от индексации
+Disallow: /ui-kit
+Disallow: /ui-kit/
+Disallow: /privacy-policy
+Disallow: /terms-of-use
+
+# Закрываем статику webpack (JS/CSS бандлы — не нужны поиску)
+Disallow: /static/
+
+# ─── Яндекс ───────────────────────────────────────────────────────────────────
+User-agent: Yandex
+Allow: /
+Disallow: /ui-kit
+Disallow: /ui-kit/
+Disallow: /privacy-policy
+Disallow: /terms-of-use
+Disallow: /static/
+# Директива Clean-Param: исключаем UTM и технические параметры из индексации
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term /
+Clean-param: ref&source /
+
+# ─── Google ───────────────────────────────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+Disallow: /ui-kit
+Disallow: /ui-kit/
+Disallow: /static/
+
+# ─── Sitemap ──────────────────────────────────────────────────────────────────
+Sitemap: https://teloiduh.ru/sitemap.xml
+
+# ─── Crawl-delay (для менее вежливых ботов) ──────────────────────────────────
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /

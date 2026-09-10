@@ -1,0 +1,1 @@
+export type {StrapiMedia, Specialty, Specialist, StrapiCollectionResponse, StrapiSingleResponse } from './Specialist';

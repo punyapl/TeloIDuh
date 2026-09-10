@@ -1,0 +1,1 @@
+export { PromotionPageAsync as PromotionPage, } from './ui/PromotionPage.async'

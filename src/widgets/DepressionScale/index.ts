@@ -1,0 +1,1 @@
+export { DepressionScale, } from './ui/DepressionScale'

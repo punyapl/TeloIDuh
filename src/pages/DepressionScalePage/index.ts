@@ -1,0 +1,1 @@
+export { DepressionScalePageAsync as DepressionScalePage, } from './ui/DepressionScalePage.async'

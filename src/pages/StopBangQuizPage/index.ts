@@ -1,0 +1,1 @@
+export { StopBangQuizPageAsync as StopBangQuizPage, } from './ui/StopBangQuizPage.async'

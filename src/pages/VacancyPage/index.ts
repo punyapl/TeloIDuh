@@ -1,0 +1,1 @@
+export { VacancyPageAsync as VacancyPage, } from './ui/VacancyPage.async'

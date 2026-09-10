@@ -1,0 +1,1 @@
+export { getStrapiMediaUrl, } from './getStrapiMediaUrl'

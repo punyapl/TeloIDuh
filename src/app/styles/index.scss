@@ -1,0 +1,13 @@
+@use "reset";
+@use "../../shared/styles/fonts/fonts.scss";
+
+:root {
+    font-size: 18px;
+}
+
+.app {
+    font-family: "Inter", Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+input, textarea {outline:none;}

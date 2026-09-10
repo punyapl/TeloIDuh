@@ -1,0 +1,1 @@
+export { getFormattedIndex } from './getFormattedIndex'

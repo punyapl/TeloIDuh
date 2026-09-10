@@ -1,0 +1,1 @@
+export { StopBangQuiz, } from './ui/StopBangQuiz'

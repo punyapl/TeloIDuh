@@ -1,0 +1,7 @@
+.idea
+node_modules
+**/.env
+**/*.log
+analyzer_stats.json
+.vscode
+/build/
